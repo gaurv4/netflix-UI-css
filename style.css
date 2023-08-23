@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 95vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(assets/bg-image.png);
+    background-size: 120vw;
+    background-position: -19vh -16vw;
+    position: relative;
+    border-bottom: 6px solid rgba(255, 255, 255, 0.155); 
+}
+
+nav {
+    display: flex;
+    margin: 0 10%;
+    width: 80%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav img {
+    width: 150px;
+    height: 45px;
+    margin: 20px 30px;
+}
+
+.navright {
+    align-items: center;
+
+}
+
+#lang {
+    color: white;
+    border-radius: 3px;
+    padding: 4px 23px;
+    padding-left: 22px;
+    border: 1 solid rgba(255, 255, 255, 0.544);
+    background-color: transparent;
+    font-size: 16px;
+}
+
+nav a {
+    background-color: #ff000d;
+    text-decoration: none;
+    color: white;
+    margin: 0 14px;
+    margin-right: 19px;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid #C11119;
+}
+
+nav a:hover {
+    background-color: #bd1820;
+}
+
+.homepage {
+    width: 100%;
+    height: 86vh;
+}
+
+.center-text {
+    width: 60vw;
+    text-align: center;
+    margin: 4vh 20vw;
+    margin-top: 25vh;
+}
+
+.center-text h1 {
+    color: white;
+    font-size: 50px;
+    font-style: bolder;
+}
+
+.center-text h3 {
+    margin: 19px;
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.center-text h4 {
+    color: white;
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.enter-start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.enter-start input {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 3px;
+    color: white;
+    padding: 16px 15px;
+    padding-right: 180px;
+    font-size: 14px;
+    border: 0.1px solid rgba(255, 255, 255, 0.415);
+}
+
+.enter-start .btn a {
+    background-color: rgb(255, 0, 51);
+    text-decoration: none;
+    color: white;
+    border: 1px solid crimson;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn a:hover {
+    background-color: #bd1820;
+}
+
+.second-page {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 75vh;
+    background-color: black;
+    display: flex;
+    border-bottom: 6px solid rgba(255, 255, 255, 0.155);
+}
+
+.second-text {
+    color: white;
+    width: 35vw;
+    height: 20vh;
+}
+
+.second-text h1 {
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+
+.second-text p {
+    margin-top: 14px;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.second-page .second-img img {
+    width: 36vw;
+}
+
+.third-page {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 75vh;
+    background-color: black;
+    display: flex;
+    border-bottom: 6px solid rgba(255, 255, 255, 0.155);
+}
+
+.third-text {
+    color: white;
+    width: 38vw;
+    height: 20vh;
+}
+
+
+.third-text h1 {
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+
+.third-text p {
+    margin-top: 14px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.third-page .third-img img {
+    width: 36vw;
+}
+
+.fourth-page {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 75vh;
+    background-color: black;
+    display: flex;
+    border-bottom: 6px solid rgba(255, 255, 255, 0.155);
+}
+
+.fourth-text {
+    color: white;
+    width: 35vw;
+    height: 20vh;
+}
+
+.fourth-text h1 {
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+
+.fourth-text p {
+    margin-top: 14px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.fourth-page .fourth-img img {
+    width: 36vw;
+}
+
+.fipth-page {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 75vh;
+    background-color: black;
+    display: flex;
+    border-bottom: 6px solid rgba(255, 255, 255, 0.155);
+}
+
+.fipth-text {
+    color: white;
+    width: 38vw;
+    height: 20vh;
+}
+
+.fipth-text h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.fipth-text p {
+    margin-top: 14px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.fipth-page .fipth-img img {
+    width: 36vw;
+}
+
+
+.footer {
+    background-color: black;
+    padding-top: 8vh;
+  }
+
+.footer p {
+    color: #c7c7c7;
+    font-size: 16px;
+    padding-left: 11vw;
+}
+
+.footer p>span {
+    text-decoration: underline;
+}
+
+.section__container__footer__container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-left: -10vw;
+    line-height: 35px;
+}
+
+.footer__col li {
+    list-style: none;
+  }
+
+.footer__col a {
+    color: #c7c7c7;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 300px;
+    transition: 0.3s;
+}
+  
+.footer__col a:hover {
+    color: rgb(255, 255, 255);
+}
+
+  .footer__co2 li {
+    list-style: none;
+}
+
+
+.footer__co2 a {
+    color: #c7c7c7;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 300px;
+    transition: 0.3s;
+}
+  
+.footer__co2 a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.footer__co3 li {
+    list-style: none;
+}
+
+.footer__co3 a {
+    color: #c7c7c7;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 300px;
+    transition: 0.3s;
+}
+  
+.footer__co3 a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.bar-lang {
+    background-color: black;
+    color: white;
+    padding: 6vh 11vw;
+}
+
+.bar-lang p {
+    color: #c7c7c7;
+    margin-top: 3vh;
+    font-size: 15px;
+}
+
+.footer__bar {
+    background-color: black;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+    border-top: 1px solid var(--text-light);
+}
