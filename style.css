@@ -17,19 +17,24 @@ header{
     border-bottom: 6px solid rgba(255, 255, 255, 0.155); 
 }
 
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 nav {
     display: flex;
     margin: 0 10%;
     width: 80%;
-    height: 100px;
+    height: 12vh;
     align-items: center;
     justify-content: space-between;
 }
 
 header nav img {
-    width: 150px;
-    height: 45px;
-    margin: 20px 30px;
+    width: 9.5vw;
+    margin-left: 1.4vw;
 }
 
 .navright {
@@ -40,22 +45,22 @@ header nav img {
 #lang {
     color: white;
     border-radius: 3px;
-    padding: 4px 23px;
-    padding-left: 22px;
+    padding: 0.5vh 1vw;
+    padding-left: 1.3vw;
     border: 1 solid rgba(255, 255, 255, 0.544);
     background-color: transparent;
-    font-size: 16px;
+    font-size: 1vw;
 }
 
 nav a {
     background-color: #ff000d;
     text-decoration: none;
     color: white;
-    margin: 0 14px;
-    margin-right: 19px;
-    padding: 6px 14px;
+    margin: 0 1vw;
+    margin-right: 1.5vw;
+    padding: 0.7vh 0.8vw;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 1vw;
     border: 1px solid #C11119;
 }
 
@@ -72,26 +77,26 @@ nav a:hover {
     width: 60vw;
     text-align: center;
     margin: 4vh 20vw;
-    margin-top: 25vh;
+    margin-top: 29vh;
 }
 
 .center-text h1 {
     color: white;
-    font-size: 50px;
+    font-size: 3.3vw;
     font-style: bolder;
 }
 
 .center-text h3 {
-    margin: 19px;
+    margin: 1vw;
     color: white;
-    font-size: 25px;
+    font-size: 1.7vw;
     font-weight: 100;
 }
 
 .center-text h4 {
     color: white;
-    margin-top: 25px;
-    font-size: 24px;
+    margin-top: 1vh;
+    font-size: 1.6vw;
     font-weight: 100;
 }
 
@@ -99,17 +104,17 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
-    margin-top: 25px;
+    gap: 1vw;
+    margin-top: 2vh;
 }
 
 .enter-start input {
     background-color: rgba(0,0,0,0.5);
     border-radius: 3px;
     color: white;
-    padding: 16px 15px;
-    padding-right: 180px;
-    font-size: 14px;
+    padding: 1vw 1.4vw;
+    padding-right: 11vw;
+    font-size: 1vw;
     border: 0.1px solid rgba(255, 255, 255, 0.415);
 }
 
@@ -119,10 +124,10 @@ nav a:hover {
     color: white;
     border: 1px solid crimson;
     border-radius: 3px;
-    padding: 10px 20px;
-    font-size: 22px;
+    padding: 0.8vw 1vw;
+    font-size: 1.3vw;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 0.05vw;
 }
 
 .btn a:hover {
@@ -146,14 +151,14 @@ nav a:hover {
 }
 
 .second-text h1 {
-    font-size: 50px;
+    font-size: 3.1vw;
     font-weight: 900;
     
 }
 
 .second-text p {
-    margin-top: 14px;
-    font-size: 23px;
+    margin-top: 2vh;
+    font-size: 1.7vw;
     font-weight: 100;
 }
 
@@ -179,14 +184,14 @@ nav a:hover {
 
 
 .third-text h1 {
-    font-size: 50px;
+    font-size: 3.1vw;
     font-weight: 900;
     
 }
 
 .third-text p {
-    margin-top: 14px;
-    font-size: 25px;
+    margin-top: 2vh;
+    font-size: 1.7vw;
     font-weight: 100;
 }
 
@@ -211,14 +216,14 @@ nav a:hover {
 }
 
 .fourth-text h1 {
-    font-size: 50px;
+    font-size: 3.1vw;
     font-weight: 900;
     
 }
 
 .fourth-text p {
-    margin-top: 14px;
-    font-size: 25px;
+    margin-top: 2vh;
+    font-size: 1.7vw;
     font-weight: 100;
 }
 
@@ -243,13 +248,13 @@ nav a:hover {
 }
 
 .fipth-text h1 {
-    font-size: 50px;
+    font-size: 3.1vw;
     font-weight: 900;
 }
 
 .fipth-text p {
-    margin-top: 14px;
-    font-size: 25px;
+    margin-top: 2vh;
+    font-size: 1.7vw;
     font-weight: 100;
 }
 
@@ -265,7 +270,7 @@ nav a:hover {
 
 .footer p {
     color: #c7c7c7;
-    font-size: 16px;
+    font-size: 1.2vw;
     padding-left: 11vw;
 }
 
@@ -278,7 +283,7 @@ nav a:hover {
     justify-content: space-evenly;
     margin-top: 5vh;
     margin-left: -10vw;
-    line-height: 35px;
+    line-height: 5vh;
 }
 
 .footer__col li {
@@ -288,10 +293,10 @@ nav a:hover {
 .footer__col a {
     color: #c7c7c7;
     text-decoration: underline;
-    font-size: 15px;
+    font-size: 1vw;
     margin-bottom: 1rem;
     cursor: pointer;
-    width: 300px;
+    width: 10vw;
     transition: 0.3s;
 }
   
@@ -307,10 +312,10 @@ nav a:hover {
 .footer__co2 a {
     color: #c7c7c7;
     text-decoration: underline;
-    font-size: 15px;
+    font-size: 1vw;
     margin-bottom: 1rem;
     cursor: pointer;
-    width: 300px;
+    width: 10vw;
     transition: 0.3s;
 }
   
@@ -325,10 +330,10 @@ nav a:hover {
 .footer__co3 a {
     color: #c7c7c7;
     text-decoration: underline;
-    font-size: 15px;
+    font-size: 1vw;
     margin-bottom: 1rem;
     cursor: pointer;
-    width: 300px;
+    width: 10vw;
     transition: 0.3s;
 }
   
@@ -345,7 +350,7 @@ nav a:hover {
 .bar-lang p {
     color: #c7c7c7;
     margin-top: 3vh;
-    font-size: 15px;
+    font-size: 1vw;
 }
 
 .footer__bar {
@@ -357,4 +362,320 @@ nav a:hover {
     font-size: 0.8rem;
     color: white;
     border-top: 1px solid var(--text-light);
+}
+
+@media (max-width:600px) {
+
+
+
+    nav {
+        width: 100%;
+        height: 7vh;
+        margin: 0;
+    }
+
+    .header {
+        height: 75vh;
+    }
+
+    header nav>img {
+        width: 25vw;
+        padding-left: 3vw;
+    }
+
+    .navright {
+        margin-right: 2vw;
+    }
+
+    .navright #lang {
+        font-size: 3vw;
+    }
+
+    .navright>a {
+        font-size: 3vw;
+        padding: 0.7vh 2vw;
+    }
+
+    .homepage {
+        height: 25vh;
+    }
+
+    .center-text {
+        width: 100%;
+        height: 15vh;
+        margin-left: 0;
+        margin-top: 20vh;
+        margin-bottom: 0;
+    }
+
+    .center-text h1 {
+        font-size: 6vw;
+    }
+
+    .center-text h3 {
+        font-size: 4vw;
+    }
+
+    .center-text h4 {
+        font-size: 3vw;
+    }
+
+    .enter-start {
+        height: 6vh;
+    }
+
+    .enter-start input {
+        font-size: 3vw;
+        padding: 0.9vh 2.2vw;
+    }
+
+    .enter-start .btn {
+        margin-bottom: 0.2vh;
+    }
+
+    .enter-start .btn a {
+        font-size: 3.3vw;
+        padding: 0.76vh 1vw;
+    }
+
+    .second-page {
+        display: block;
+        height: auto;
+        gap: 25vh;
+    }
+
+    .second-img {
+        text-align: center;
+        height: 17vh;
+        width: 100%;
+        margin-top: 4vh;
+    }
+
+    .second-img>img {
+        height: 14vh;
+        width: 100%;
+    }
+
+    .second-text {
+        width: 100%;
+        height: 10vh;
+        padding-top: 20vh;
+        text-align: center;
+    }
+
+    .second-text h1 {
+        font-size: 7vw;
+    }
+
+    .second-text p {
+        font-size: 4vw;
+    }
+    
+    .third-page {
+        display: block;
+        height: auto;
+        gap: 25vh;
+    }
+
+    .third-img {
+        text-align: center;
+        height: 17vh;
+        width: 100%;
+        padding-top: 20vh;
+    }
+
+    .third-img>img {
+        height: 14vh;
+        width: 100%;
+    }
+
+    .third-text {
+        width: 90%;
+        height: 10vh;
+        padding-top: 1vh;
+        margin-left: 5vw;
+        text-align: center;
+    }
+
+    .third-text h1 {
+        font-size: 7vw;
+    }
+
+    .third-text p {
+        font-size: 4vw;
+    }
+    
+    .fourth-page {
+        display: block;
+        height: auto;
+        gap: 25vh;
+    }
+
+    .fourth-img {
+        text-align: center;
+        height: 17vh;
+        width: 100%;
+        padding-top: 4vh;
+    }
+
+    .fourth-img>img {
+        height: 14vh;
+        width: 100%;
+    }
+
+    .fourth-text {
+        width: 90%;
+        height: 10vh;
+        padding-top: 20vh;
+        margin-left: 5vw;
+        text-align: center;
+    }
+
+    .fourth-text h1 {
+        font-size: 7vw;
+    }
+
+    .fourth-text p {
+        font-size: 4vw;
+    }
+
+    .fipth-page {
+        display: block;
+        height: auto;
+        gap: 25vh;
+    }
+
+    .fipth-img {
+        text-align: center;
+        height: 17vh;
+        padding-top: 20vh;
+        width: 100%;
+    }
+
+    .fipth-img>img {
+        height: 15vh;
+        width: 100%;
+    }
+
+    .fipth-text {
+        width: 90%;
+        height: 10vh;
+        padding-top: 1vh;
+        text-align: center;
+        margin-left: 5vw;
+    }
+
+    .fipth-text h1 {
+        font-size: 7vw;
+    }
+
+    .fipth-text p {
+        font-size: 4vw;
+    }
+
+    .footer {
+        background-color: black;
+        padding-top: 3vh;
+      }
+    
+    .footer p {
+        color: #c7c7c7;
+        font-size: 3vw;
+        padding-left: 11vw;
+    }
+    
+    .footer p>span {
+        text-decoration: underline;
+    }
+    
+    .section__container__footer__container {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 3vh;
+        margin-left: 1vw;
+        line-height: 3vh;
+    }
+    
+    .footer__col li {
+        list-style: none;
+      }
+    
+    .footer__col a {
+        color: #c7c7c7;
+        text-decoration: underline;
+        font-size: 3vw;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        width: 7vw;
+        transition: 0.3s;
+    }
+      
+    .footer__col a:hover {
+        color: rgb(255, 255, 255);
+    }
+    
+      .footer__co2 li {
+        list-style: none;
+    }
+    
+    
+    .footer__co2 a {
+        color: #c7c7c7;
+        text-decoration: underline;
+        font-size: 3vw;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        width: 7vw;
+        transition: 0.3s;
+    }
+      
+    .footer__co2 a:hover {
+        color: rgb(255, 255, 255);
+    }
+    
+    .footer__co3 li {
+        list-style: none;
+    }
+    
+    .footer__co3 a {
+        color: #c7c7c7;
+        text-decoration: underline;
+        font-size: 3vw;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        width: 7vw;
+        transition: 0.3s;
+    }
+      
+    .footer__co3 a:hover {
+        color: rgb(255, 255, 255);
+    }
+    
+    .bar-lang {
+        background-color: black;
+        color: white;
+        padding: 2.5vh 7.5vw;
+    }
+
+    .bar-lang #lang {
+        font-size: 2.5vw;
+    }
+    
+    .bar-lang p {
+        color: #c7c7c7;
+        margin-top: 1.5vh;
+        font-size: 3vw;
+    }
+    
+    .footer__bar {
+        background-color: black;
+        max-width: var(--max-width);
+        margin: auto;
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 2.5vw;
+        color: white;
+        border-top: 1px solid var(--text-light);
+    }
+
 }
